@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary-color: #2b2d42ff;
+  --secondary-color: #fca311ff;
+  --tertiary-color: #ef233cff;
+  --bg-primary-color: #e5e5e5ff;
+  --bg-white-color: #ffffffff;
+}
+
+/* NAVBAR STYLING STARTS */
+/* .navbar{
+    background-color: var(--primary-color);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.navbar ul{
+  display: flex;
+}
+.navbar ul li{
+  margin: 0 10px;
+}
+.navbar ul li a{
+  color: var(--bg-white-color);
+  
+} */
+
+.navbar-links{
+  border-bottom: 3px solid transparent;
+  padding: 4px 0;
+  transition: all 300ms ease-in-out;
+
+ }
+.navbar-links:hover{
+ border-bottom: 3px solid var(--secondary-color);
+}
+  /* NAVBAR STYLING ENDS*/
